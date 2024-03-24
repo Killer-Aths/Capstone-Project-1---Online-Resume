@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Project - 2</title>
+    </head>
+    <body>
+        <header>
+            <h1>A REVIEW ON IMAGE COMPRESSION TECHNIQUES</h1>
+        </header>
+        <hr />
+        <main>
+            <h2>Lossless Compression Technique</h2>
+            <h3>Huffman Coding</h3>
+            <figure>
+                <img src="../assests/Scenery.jpg" alt="Original Image (Scenery)" height="200px" />
+                <figcaption>Original Image Scenery</figcaption>
+                <br />
+                <img src="../assests/Scenery_compressed.jpg" alt="Compressed Image (Scenery)" height="200px" />
+                <figcaption>Compressed Image Scenery</figcaption>
+            </figure>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Image name</th>
+                        <th>Original size</th>
+                        <th>Compressed size</th>
+                        <th>Compression ratio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Scenery</td>
+                        <td>246 kB</td>
+                        <td>188 kB</td>
+                        <td>1.31</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr />
+            <h2>Lossy Compression Technique</h2>
+            <h3>Block Truncation Coding</h3>
+            <figure>
+                <img src="../assests/Dog.png" alt="Original Image (Dog)" height="200px" />
+                <figcaption>Original Image (Dog)</figcaption>
+                <br />
+                <img src="../assests/Dog_Compressed_8.png" alt="Compressed Image (Dog)" height="200px" />
+                <figcaption>Compressed Image (Dog : n = 8)</figcaption>
+                <br />
+                <img src="../assests/Dog_Compressed_16.png" alt="Compressed Image (Dog)" height="200px" />
+                <figcaption>Compressed Image (Dog : n = 16)</figcaption>
+            </figure>
+            <table>
+                <caption>
+                    For n = 8
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Image name</th>
+                        <th>Original size</th>
+                        <th>Compressed size</th>
+                        <th>Compression ratio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dog</td>
+                        <td>110 kB</td>
+                        <td>51.5 kB</td>
+                        <td>2.13</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br />
+            <table>
+                <caption>
+                    For n = 16
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Image name</th>
+                        <th>Original size</th>
+                        <th>Compressed size</th>
+                        <th>Compression ratio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dog</td>
+                        <td>110 kB</td>
+                        <td>36 kB</td>
+                        <td>3.05</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr />
+            <h3>To download the research paper : <a href="../assests/A REVIEW ON IMAGE COMPRESSION REPORT.pdf" download="Reserach_paper">Download</a></h3>
+            <hr />
+            <h3>A video presentation of my research paper</h3><br />
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/72XlVHT-0rU?si=3KNZkrgKQEI-TwgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </main>
+        <hr />
+        <footer>
+            <small>
+                Copyright © Atharva Anna Kale. All Rights Reserved.
+            </small>
+        </footer>
+    </body>
+</html>
